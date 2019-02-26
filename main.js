@@ -1,12 +1,11 @@
 const Discord = require("discord.js"); 
 const client = new Discord.Client(); 
-var wartosc; 
 client.on("ready", () => {
-  console.log("rozwalmy discorda hehe");
+  console.log("Bot Ready");
 });
  
 client.on("message", (message) => {
-  if (message.content.startsWith("everyd")) {
+  if (message.content.startsWith("EveryoneSpam")) {
 
 for (step = 0; step < 100; step++) {
  
@@ -15,4 +14,4 @@ for (step = 0; step < 100; step++) {
 }    
  
 });
-client.login("token here XD");          
+client.login("TOKEN HERE");          
